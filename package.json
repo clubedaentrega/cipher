@@ -1,0 +1,27 @@
+{
+	"name": "@clubedaentrega/cipher",
+	"version": "1.0.0",
+	"author": "Sitegui <sitegui@sitegui.com.br>",
+	"description": "Encrypt/decrypt data using AES-128-GCM easily",
+	"main": "./index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/clubedaentrega/cipher"
+	},
+	"keywords": [
+		"crypto",
+		"aes-128-gcm"
+	],
+	"dependencies": {},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.12"
+	},
+	"scripts": {
+		"test": "mocha test"
+	},
+	"devDependencies": {
+		"mocha": "^2.2.5",
+		"should": "^7.0.2"
+	}
+}
